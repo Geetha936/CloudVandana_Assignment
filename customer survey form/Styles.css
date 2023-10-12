@@ -1,0 +1,48 @@
+.body{
+    background-color: rgb(126, 126, 242);
+    
+}
+.blur{
+    background-color: rgb(228, 228, 238);
+    filter: blur(4px);
+    
+}
+textarea{
+    width: 100%;
+}
+div[class=row]{
+    justify-content: space-between;
+}
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+div[class=card],div[class=container ]{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 25%;
+   margin-right: 25%;    
+}
+.jus{
+    display: flex;
+    justify-content: space-around;
+    justify-items: flex-end;
+}
+.hid{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    display:none;
+    /* display: flex;
+    justify-content: center;
+    justify-items: center; */
+}
+.shadow{
+
+
+    box-shadow: 
+        5px 5px 10px rgba(0, 0, 0, 0.1),
+        -5px -5px 10px rgba(255, 0, 0, 0.1);
+    
+}
