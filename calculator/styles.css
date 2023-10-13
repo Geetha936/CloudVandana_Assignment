@@ -1,0 +1,20 @@
+.btn{
+    width: 90px;
+}
+.card-body{
+    display: grid;
+    justify-content: center;
+ 
+}
+.b{
+    display: block;
+}
+input{
+    width: 74%;
+
+}
+
+button[id="clear"]{
+    margin-left: 2px;
+
+}
